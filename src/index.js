@@ -5,13 +5,10 @@ import App from './App';
 import 'bootstrap/dist/css/bootstrap.css';
 import {BrowserRouter as Router} from 'react-router-dom';
 
-const rootElement = document.getElementById("root");
 
 ReactDOM.render(
 <Router>
     <App />
     </Router>, 
-    rootElement
-);
-
-    // document.getElementById('root'));
+    document.getElementById('root'));
+   
